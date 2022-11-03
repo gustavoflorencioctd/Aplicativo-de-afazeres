@@ -47,9 +47,8 @@ public class Task {
 	public Task() {
 	}
 
-	public Task(long id, String name, String description, boolean isCompleted, String notes, Date deadLine,
+	public Task(String name, String description, boolean isCompleted, String notes, Date deadLine,
 			Date createdAt, Date updatedAt, Project project) {
-		this.id = id;
 		this.name = name;
 		this.description = description;
 		this.isCompleted = isCompleted;

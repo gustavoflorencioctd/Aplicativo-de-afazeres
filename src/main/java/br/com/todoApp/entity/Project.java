@@ -32,8 +32,7 @@ public class Project {
 	public Project() {
 	}
 
-	public Project(long id, String name, String description, Date createdAt, Date updatedAt) {
-		this.id = id;
+	public Project(String name, String description, Date createdAt, Date updatedAt) {
 		this.name = name;
 		this.description = description;
 		this.createdAt = createdAt;
